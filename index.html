@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boutique Getaway Publisher</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: single reading column, quiet document styling for a legal page */
+:root{
+  --bg:#f6f4f0; --fg:#2b2925; --muted:#6c675f; --rule:#ddd6cb; --accent:#3d5a6c;
+  --display:"Lora",Georgia,serif; --body:"Source Sans 3","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1d1f;--fg:#e9e5de;--muted:#a59f95;--rule:#363634;--accent:#9cbcd0;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1d1f;--fg:#e9e5de;--muted:#a59f95;--rule:#363634;--accent:#9cbcd0;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:17px/1.6 var(--body)}
+main{max-width:68ch;margin:0 auto;padding-block:48px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+h1{font:500 2.2rem/1.2 var(--display);margin:0 0 6px;text-wrap:balance}
+h2{font:italic 500 1.6rem/1.25 var(--display);margin:48px 0 8px;padding-top:24px;border-top:1px solid var(--rule);text-wrap:balance}
+h3{font:600 1rem var(--body);margin:24px 0 4px}
+p,li{margin:0 0 10px}
+.meta{color:var(--muted);font-size:15px}
+nav{display:flex;gap:20px;flex-wrap:wrap;margin:20px 0 0}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+<style>body{margin:0}</style></head><body>
+<main>
+  <p class="eyebrow">Boutique Getaway Group LLC</p>
+  <h1>Boutique Getaway Publisher</h1>
+  <p class="meta">Policies for the private publishing tool used by Boutique Getaway Group LLC. Last updated November 2, 2026.</p>
+  <nav><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+
+  <h2 id="privacy">Privacy Policy</h2>
+  <p>Boutique Getaway Publisher is an internal tool. Boutique Getaway Group LLC uses it to publish its own marketing videos and photos for its vacation rental in Tobyhanna, Pennsylvania to its own TikTok and Instagram accounts. It is not offered to the public and has no other users.</p>
+  <h3>What the tool accesses</h3>
+  <p>When the account owner connects TikTok or Instagram, the tool receives an access token and basic profile information (account ID and username) for that account only. It uses these solely to upload and publish content that the account owner has approved.</p>
+  <h3>What the tool does not do</h3>
+  <ul>
+    <li>It does not collect data about other users, followers, viewers or guests.</li>
+    <li>It does not read messages, comments or contacts.</li>
+    <li>It does not sell, share or rent any data to third parties.</li>
+    <li>It does not use data for advertising or profiling.</li>
+  </ul>
+  <h3>Storage and retention</h3>
+  <p>Access tokens are stored privately in the owner's Google Apps Script project settings and are never published. Content files are stored in the owner's private Google Drive and private GitHub repository. The owner can revoke access at any time from the TikTok or Instagram app settings, after which the stored token stops working.</p>
+  <h3>Contact</h3>
+  <p>Questions about this policy: <span>boutiquegetaway@gmail.com</span></p>
+
+  <h2 id="terms">Terms of Service</h2>
+  <p>These terms apply to Boutique Getaway Publisher, a private tool operated by Boutique Getaway Group LLC.</p>
+  <h3>Use</h3>
+  <p>The tool may only be used by Boutique Getaway Group LLC to publish its own original content to accounts it owns or manages. Every post is reviewed and approved by the account owner before it is published.</p>
+  <h3>Content</h3>
+  <p>All content published through the tool is created by or licensed to Boutique Getaway Group LLC. The company is responsible for its content and for following the community guidelines and terms of each platform, including TikTok's and Instagram's.</p>
+  <h3>No warranty</h3>
+  <p>The tool is provided as is for internal use. Boutique Getaway Group LLC may change or stop the tool at any time.</p>
+  <h3>Contact</h3>
+  <p>Questions about these terms: <span>boutiquegetaway@gmail.com</span></p>
+</main>
+</body></html>
